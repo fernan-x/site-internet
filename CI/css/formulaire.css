@@ -1,0 +1,87 @@
+body {
+    background-color: lightgrey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: lightskyblue;
+}
+
+fieldset {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 10px;
+    width: 20%;
+    border: 5px solid lightskyblue;
+}
+
+legend {
+    color: lightskyblue;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+input[type=submit], input[type=reset] {
+    width: 200px;
+    margin-left: 670px;
+    box-shadow: 1px 1px 1px lightskyblue;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: lightskyblue;
+ }
+
+input[type=submit]:active, input[type=reset]:active {
+    background-color: lightskyblue;
+    box-shadow: 1px 1px 1px lightskyblue inset;
+}
+
+span {
+    color: red;
+}
+
+#img {
+    background-color: lightgrey;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 50px;
+    margin-bottom: 180px;
+}
+
+#title {
+    text-align: center;
+    color: lightskyblue;
+    font-size: 80px;
+    font-family: cursive;
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    margin-left: 550px;
+}
