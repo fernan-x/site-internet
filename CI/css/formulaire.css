@@ -2,6 +2,7 @@ body {
     background-color: lightgrey;
 }
 
+/* Navigation barre */
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,6 +31,7 @@ li a:hover {
     background-color: lightskyblue;
 }
 
+/* Fieldset */
 fieldset {
     padding: 0 20px 20px 20px;
     margin-bottom: 10px;
@@ -43,6 +45,7 @@ legend {
     font-size: 300%;
 }
 
+/* Boite de texte et d'envoi */
 input[type=submit], input[type=reset] {
     width: 200px;
     margin-left: 670px;
@@ -59,10 +62,12 @@ input[type=submit]:active, input[type=reset]:active {
     box-shadow: 1px 1px 1px lightskyblue inset;
 }
 
+/* Erreur */
 span {
     color: red;
 }
 
+/* Contenu du fieldset */
 #img {
     background-color: lightgrey;
     margin-left: 180px;

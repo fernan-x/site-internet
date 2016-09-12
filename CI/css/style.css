@@ -2,6 +2,7 @@ body {
     background-color : lightgrey;
 }
 
+/* Navigation barre */
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,6 +31,7 @@ li a:hover {
     background-color: lightskyblue;
 }
 
+/* Affichage du tableau */
 #tableau {
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size: 12px;
@@ -66,7 +68,7 @@ li a:hover {
     text-decoration: underline;
 }
 
-
+/* Contenu du site pour l'acceuil*/
 #img {
     background-color: white;
     margin-left: 180px;

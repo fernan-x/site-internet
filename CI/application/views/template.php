@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Home</title>
+        <!-- On charge la page css -->
         <link rel = "stylesheet" type = "text/css" 
          href = "<?php echo base_url(); ?>css/style.css">
     </head>
     <body>
-
+        <!-- Navigation barre -->
         <header>
             <ul id="accueil">
                 <li>
@@ -24,10 +25,12 @@
                 </li>
             </ul>
         </header>
+        <!-- Affichage du tableau -->
         <div>
             <table id="tableau" summary="Liste de contact">
                 <thead>
                     <tr>
+                        <!-- Titre de chaque colonne -->
                         <th scope="col">Nom</th>
                         <th scope="col">Prénom</th>
                         <th scope="col">Adresse</th>
@@ -36,10 +39,12 @@
                 </thead>
                 <tfoot>
                     <tr>
+                        <!-- Footer du tableau -->
                         <td colspan="4">Liste de contact</td>
                     </tr>
                 </tfoot>
                 <tbody>
+                    <!-- Pour chaque ligne du tableau on récupère les informations de la variable que l'on affiche-->
                     <?php foreach($records as $rec){
                     echo "<tr>
                         <td>".$rec->nom."</td>

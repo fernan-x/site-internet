@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Home</title>
+        <!-- On charge la page css -->
         <link rel = "stylesheet" type = "text/css" 
          href = "<?php echo base_url(); ?>css/style.css">
     </head>
     <body>
-
+        <!-- Navigation barre -->
         <header>
             <ul id="accueil">
                 <li>
@@ -26,10 +27,15 @@
         </header>
 
         <div id = "img"></br>
+            <!-- Titre principal -->
             <h4 id = "title"> MON SITE </h4></br>
+
+                <!-- Sous titre -->
                 <section id = "stitle"></br> 
                     BIENVENUE SUR LE SITE DE FABIEN FERNANDES ALVES</br></br>
                 </section></br>
+
+                <!-- Contenu -->
                 <hr size="1" width="98%" color="gainsboro">
                 <section id = "body">
                     <h3>Objectif :</br></h3>
@@ -40,8 +46,10 @@
                         <a id = "lien" href="http://blog.soat.fr/2013/04/introduction-au-responsive-design-comment-rendre-son-site-responsive-sans-trop-defforts/" target="_blank">Responsive design</a>. </br>
                         Intégration d'une page de login.</br>
                 </section>
+
                 <hr size="1" width="98%" color="gainsboro">
-            </br>
+                </br>
+
         </div>
     </body>
 </html>
